@@ -1,4 +1,14 @@
-# Pokedex
+###### Pokedex
+
+### Sobre
+
+ O Objetivo desse projeto é contruir uma página web parecida com a página oficial do [Pokémon](https://www.pokemon.com/br/pokedex/)
+
+ >Acesse a página do projeto [aqui](https://main.dtl4uvmpcuppz.amplifyapp.com)
+
+ ### Tecnologias utilizadas
+
+ <img alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width=40 height=40 /><img alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width=40 height=40 /><img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width=40 height=40 />
 
 ### Planejamento de Projeto
 - [X]Estruturar layout do fundo Reutilizavel
