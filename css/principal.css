@@ -1,0 +1,13 @@
+.busca_um{
+    width:70vw;
+    height: 80px;
+    background-color:#616161 ;
+    margin:0 auto;
+}
+.busca_dois{
+    width:20vw;
+    height: 18px;
+    background-color:#616161 ;
+    margin:0 auto;
+    border-radius: 0 0 18px 18px;
+}

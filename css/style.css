@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Flexo-Regular";
+    src: url(../fonts/Flexo/Flexo-Regular/Flexo-Regular.ttf) format('opentype');
+    
+}
+
+body{
+    font-family: "Flexo-Regular";
+}
+.background-fora{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/bg_1.png);  
+}
+.background-dentro{
+    width: 70vw;
+    height: 100vh;
+    background-color: white;
+    background-image: url(../images/bg_2.png);
+    margin: 0 auto;
+}
+.titulo{
+    width: 40vw;
+    background-color: white;
+    margin: 0 auto;
+}
+.titulo h1{
+    font-size: 30px;
+    color: #9F9191;
+    padding: 25px 0 25px 20px;
+}
