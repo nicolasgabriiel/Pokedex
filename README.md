@@ -2,9 +2,9 @@
 
 ### Sobre
 
- O Objetivo desse projeto é contruir uma página web parecida com a página oficial do [Pokémon](https://www.pokemon.com/br/pokedex/)
+ O Objetivo desse projeto é contruir uma página web parecida com a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/)
 
- >Acesse a página do projeto [aqui](https://main.dtl4uvmpcuppz.amplifyapp.com)
+ >Acesse a página do projeto clicando [aqui.](https://main.dtl4uvmpcuppz.amplifyapp.com)
 
  ### Tecnologias utilizadas
 
@@ -13,14 +13,15 @@
 ### Planejamento de Projeto
 - [X]Estruturar layout do fundo Reutilizavel
 - [X]Estilizar layout do fundo Reutilizavel
-- [ ]Estruturar layout da Página principal
-- [ ]Estilizar layout da Página principal
+- [X]Estruturar layout da Página principal
+- [X]Estilizar layout da Página principal
 - [ ]Criar Efeito Hover nos pokemons
 - [ ]Começar a tratar os dados da Poke API
 - [ ]Montar a Estrutura de dados dos pokemons
 - [ ]Exibir os dados ná pagina
 - [ ]Estruturar layout das páginas individuais 
 - [ ]Estilizar layout das páginas individuais 
+- [ ]Aplicando Design Responsivo
 
 
 

@@ -11,3 +11,48 @@
     margin:0 auto;
     border-radius: 0 0 18px 18px;
 }
+.caixa-principal{
+    width: 50vw;
+    background-color: white;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.container-pokemon{
+    margin-top: 50px;
+    background-color: white;
+    width: calc(49vw/4);
+    border: 10px solid white;
+    box-sizing: border-box;
+}
+.imagem-pokemon{
+    background-color: #cccccc;
+    height: 205px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.numero-pokemon{
+    color: #919191;
+    width: 90%;
+    margin: 4px auto;
+    font-size: 12.8px;
+    font-weight: bold;
+}
+.nome-pokemon{
+    color:black;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 23px;
+}
+.container-tipo{
+    display: flex;
+    flex-direction: row ;
+}
+.tipo-pokemon{
+    width: 73px;
+    height: 18px;
+    background-color: #919191;
+    margin:5px 5px 5px 5%;
+    border-radius: 9px;
+}
