@@ -2,7 +2,7 @@
 
 ### Sobre
 
- O Objetivo desse projeto é contruir uma página web parecida com a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/)
+ O Objetivo desse projeto é desenvolver uma página web usando como inspirção a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/) Nesse projeto utilizei uma [WebSocketAPI](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html?pg=wianapi&cta=websocketapi) externa chamada [PokeAPI](https://pokeapi.co), que o utiliza o formato [JSON](https://www.devmedia.com.br/o-que-e-json/23166) para troca de informações, o que me permitiu buscar em uma fonte externa os dados que eu precisava sobre os Pokémons.
 
  >Acesse a página do projeto clicando [aqui.](https://main.dtl4uvmpcuppz.amplifyapp.com)
 
