@@ -16,9 +16,11 @@
 - [X]Estruturar layout da Página principal
 - [X]Estilizar layout da Página principal
 - [X]Criar Efeito Hover nos pokemons
-- [ ]Começar a tratar os dados da Poke API
-- [ ]Montar a Estrutura de dados dos pokemons
-- [ ]Exibir os dados ná pagina
+- [X]Começar a Estruturar os dados que vem da Poke API
+- [X]Exibir textos na tela
+- [X]Exibir as imagens na tela
+- [ ]Estruturar tudo em listas de repetição
+- [ ]Exibir todos os pokemons na tela inicial listas
 - [ ]Estruturar layout das páginas individuais 
 - [ ]Estilizar layout das páginas individuais 
 - [ ]Aplicando Design Responsivo
