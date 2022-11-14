@@ -2,7 +2,7 @@
 
 ### Sobre
 
- O Objetivo desse projeto é desenvolver uma página web usando como inspirção a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/) Nesse projeto utilizei uma [WebSocketAPI](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html?pg=wianapi&cta=websocketapi) externa chamada [PokeAPI](https://pokeapi.co), que o utiliza o formato [JSON](https://www.devmedia.com.br/o-que-e-json/23166) para troca de informações, o que me permitiu buscar em uma fonte externa os dados que eu precisava sobre os Pokémons.
+ O Objetivo desse projeto é desenvolver uma página web usando como inspiração a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/) Nesse projeto utilizei uma [WebSocketAPI](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html?pg=wianapi&cta=websocketapi) externa chamada [PokeAPI](https://pokeapi.co), que o utiliza o formato [JSON](https://www.devmedia.com.br/o-que-e-json/23166) para troca de informações, o que me permitiu buscar em uma fonte externa os dados que eu precisava sobre os Pokémons.
 
  >Acesse a página do projeto clicando [aqui.](https://main.dtl4uvmpcuppz.amplifyapp.com)
 
@@ -15,7 +15,7 @@
 - [X]Estilizar layout do fundo Reutilizavel
 - [X]Estruturar layout da Página principal
 - [X]Estilizar layout da Página principal
-- [ ]Criar Efeito Hover nos pokemons
+- [X]Criar Efeito Hover nos pokemons
 - [ ]Começar a tratar os dados da Poke API
 - [ ]Montar a Estrutura de dados dos pokemons
 - [ ]Exibir os dados ná pagina

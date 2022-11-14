@@ -57,3 +57,7 @@
 }
 .tipo1{margin:5px 0px 5px 5%;}
 .tipo2{margin:5px 5px 5px 3px;}
+.container-pokemon:hover{scale: 1.005;}
+.imagem-pokemon{cursor: pointer;}
+
+
