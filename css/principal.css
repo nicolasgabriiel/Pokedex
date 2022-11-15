@@ -19,7 +19,7 @@
 .container-pokemon{
     margin-top: 50px;
     background-color: white;
-    width: calc(49.2vw / 4);
+    width: calc(12vw);
     border: 8px solid white;
     box-sizing: border-box;
     display: inline-block;
@@ -59,8 +59,7 @@
 .tipo2{margin:5px 5px 5px 3px;}
 .container-pokemon:hover{
     position: relative;
-    top: -2px;
-}
+    top: -2px;}
 .imagem-pokemon{cursor: pointer;}
 
 

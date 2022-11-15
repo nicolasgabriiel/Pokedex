@@ -1,41 +1,39 @@
-loadpk();
+const fetchPokemon  = () => {
+  getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
-function loadpk (){
-    console.log("Estou funcionando") 
+  const pokemonPromises = []
 
-    
-    let url = "https://pokeapi.co/api/v2/pokemon/1/"
+  for (let i = 1; i < 151; i++ ){
 
-    fetch(url)
-        .then((response) => {
-            return response.json();
-        })
-        .then((data) => {
-            console.log(data);
-        
-            let nomes = document.querySelectorAll('.nome-pokemon')
-            let numeros = document.querySelectorAll('.numero-pokemon')
-            let imagens = document.querySelectorAll('.imagem-pokemon')
-            
-            console.log(nomes[5])
-            
-            
-            for(let i = 0; 0 < nomes.length; i++){
-                nomes[i].innerHTML  = data['name'];
-                numeros[i].innerHTML = "Nº 00" + data['id'];
-               
-               
+    pokemonPromises.push(fetch(getPokemonUrl(i)).then(response => response.json()))
+}
 
-                let img = data ['sprites']['other']['official-artwork']['front_default'];
-                imagens[i].setAttribute('src', img);
-                
-            }
-            
-           
+Promise.all(pokemonPromises)
+  .then(pokemons => {
+   
 
 
-        })
-        .catch((erro) => {
-            console.log("Erro: " + erro);
-        })
-    }
+    const lisPokemons = pokemons.reduce((accumulator, pokemon) => {
+
+      const types = pokemon.types.map(typeInfo => typeInfo.type.name)
+
+      accumulator += `
+      <li class="container-pokemon">
+          <img class="imagem-pokemon ${types}" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/>
+          <p class="numero-pokemon">${pokemon.id}</p>
+          <p class="nome-pokemon">${pokemon.name}</p>
+          <div class="tipo-pokemon">${types.join(' | ')}</div>
+      </li>
+      `
+      return accumulator
+    }, '')
+
+
+    const ul = document.querySelector('[data-js="pokedex"]')
+
+    ul.innerHTML = lisPokemons
+
+  } )
+}
+
+fetchPokemon()
