@@ -19,7 +19,7 @@
 .container-pokemon{
     margin-top: 50px;
     background-color: white;
-    width: calc(12vw);
+    width: calc(98%/4);
     border: 8px solid white;
     box-sizing: border-box;
     display: inline-block;
@@ -44,16 +44,22 @@
     margin: 10px auto;
     font-size: 23px;
 }
+.nome-pokemon::first-letter{
+text-transform: uppercase;
+}
 .container-tipo{
     display: flex;
     flex-direction: row ;
 }
-.tipo-pokemon{
+.tipo1, .tipo2{
     width: 73px;
     height: 18px;
     background-color: #919191;
-    margin:5px 5px 5px 5%;
-    border-radius: 9px;
+    border-radius: 9px; 
+    display: inline-block;
+    text-align: center;
+    line-height: 19px;
+    font-size: 15px;
 }
 .tipo1{margin:5px 0px 5px 5%;}
 .tipo2{margin:5px 5px 5px 3px;}
@@ -62,4 +68,89 @@
     top: -2px;}
 .imagem-pokemon{cursor: pointer;}
 
+
+
+
+
+
+
+
+
+/* Cores dos cards */
+
+.steel {
+	background-color: #9eb7b8;
+}
+
+.fire {
+    color: white;
+	background-color: #fd7d24;
+}
+
+.grass {
+	background-color: #9BCC50;
+}
+
+.electric {
+	background-color: #EED535;
+}
+
+.water{
+	background-color: #4592c4;
+    color:white
+}
+.ice {
+	background-color: #51c4e7;
+}
+
+.ground {
+	background-image:linear-gradient(to bottom, #f7de3f , #ab9842 );
+}
+
+.rock {
+	background-color: #a38c21;
+    color: white;
+}
+
+.fairy {
+	background-color: #fdb9e9;
+}
+
+.poison {
+    color: white;
+	background-color: #b97fc9;
+}
+
+.bug {
+	background-color: #729f3f;
+    color:white;
+}
+
+.dragon {
+	background-image: linear-gradient(to bottom, #53a4cf , #f16e57 );
+}
+
+.psychic {
+	background-color: #f366b9;
+    color: white;
+}
+
+.flying {
+	background-image: linear-gradient(to bottom, #5EB2E3, #bdb9b8);
+}
+
+.fighting {
+	background-color: #d56723;
+    color: white;
+}
+
+.normal {
+	background-color: #A4ACAF;
+}
+.undefined{
+    display: none;
+}
+.ghost{
+    background-color: #7b62a3;
+}
 

@@ -1,9 +1,10 @@
+getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
+
 const fetchPokemon  = () => {
-  getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
   const pokemonPromises = []
 
-  for (let i = 1; i < 151; i++ ){
+  for (let i = 1; i < 906; i++ ){
 
     pokemonPromises.push(fetch(getPokemonUrl(i)).then(response => response.json()))
 }
@@ -11,18 +12,19 @@ const fetchPokemon  = () => {
 Promise.all(pokemonPromises)
   .then(pokemons => {
    
-
-
     const lisPokemons = pokemons.reduce((accumulator, pokemon) => {
 
       const types = pokemon.types.map(typeInfo => typeInfo.type.name)
-
+      const typesSeparadas = types.join(' ');
+      const type = typesSeparadas.split(' ')
+     
       accumulator += `
       <li class="container-pokemon">
-          <img class="imagem-pokemon ${types}" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/>
-          <p class="numero-pokemon">${pokemon.id}</p>
+          <img class="imagem-pokemon" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/>
+          <p class="numero-pokemon">Nº ${pokemon.id}</p>
           <p class="nome-pokemon">${pokemon.name}</p>
-          <div class="tipo-pokemon">${types.join(' | ')}</div>
+          <div class="tipo1 ${type[0]}">${type[0]}</div>
+          <div class="tipo2 ${type[1]}">${type[1]}</div>
       </li>
       `
       return accumulator
@@ -37,3 +39,8 @@ Promise.all(pokemonPromises)
 }
 
 fetchPokemon()
+
+
+
+
+    
