@@ -23,8 +23,10 @@ Promise.all(pokemonPromises)
           <img class="imagem-pokemon" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/>
           <p class="numero-pokemon">Nº ${pokemon.id}</p>
           <p class="nome-pokemon">${pokemon.name}</p>
-          <div class="tipo1 ${type[0]}">${type[0]}</div>
-          <div class="tipo2 ${type[1]}">${type[1]}</div>
+          <div class="container-tipo">
+            <div class="tipo1 ${type[0]}">${type[0]}</div>
+            <div class="tipo2 ${type[1]}">${type[1]}</div>
+          </div>  
       </li>
       `
       return accumulator
