@@ -20,7 +20,7 @@ Promise.all(pokemonPromises)
      
       accumulator += `
       <li class="container-pokemon">
-          <img class="imagem-pokemon" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/>
+          <a href="../pagina-individual.html"><img class="imagem-pokemon" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/></a>
           <p class="numero-pokemon">Nº ${pokemon.id}</p>
           <p class="nome-pokemon">${pokemon.name}</p>
           <div class="container-tipo">

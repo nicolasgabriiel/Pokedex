@@ -26,7 +26,7 @@
 
 >Parte 2
 
-- [ ]Estruturar layout das páginas individuais 
+- [X]Estruturar layout das páginas individuais 
 - [ ]Exibir imagem do pokemon na pagina individual
 - [ ]Exibir informações do pokemon na pagina individual
 - [ ]Exibir tipo do pokemon na pagina individual
