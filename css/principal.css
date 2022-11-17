@@ -100,7 +100,24 @@ text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
     padding: 1.8% 2%;
+}
 
+/* Responsivo */
+
+
+@media screen and (max-width: 1500px) {
+ .container-pokemon{ width: calc(48vw /3); }  
+}
+
+@media screen and (max-width: 1080px) {
+ .container-pokemon{ width: calc(48vw /2); } 
+}
+@media screen and (max-width: 750px) {
+    .container-pokemon{width: calc(30vw ); }  
+}
+@media screen and (max-width: 750px) {
+    .container-pokemon{
+        width: calc(45vw );}
 }
 
 
