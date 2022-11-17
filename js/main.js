@@ -13,12 +13,16 @@ morePokemons.onclick = function verMais(){
   if(numeroPokemons > 906){
     numeroPokemons = 906
     console.log(numeroPokemons)
+    morePokemons.style.display = "none";
+    allPokemons.style.display = "none";
     fetchPokemon()
   }else{fetchPokemon()}
 }
 allPokemons.onclick = function verTudo(){
   numeroPokemons = 906
   fetchPokemon()
+  allPokemons.style.display = "none";
+  morePokemons.style.display = "none";
 }
 
 
@@ -45,7 +49,7 @@ Promise.all(pokemonPromises)
       const typesSeparadas = types.join(' ');
       const type = typesSeparadas.split(' ')
      
-      
+    
       
       accumulator += `
       <li class="container-pokemon">

@@ -41,7 +41,7 @@
 - [x]Resolver problema com os numeros exibidos 
 - [x]Criar Lógica botão ver mais 
 - [x]Criar Lógica botão ver tudo
-- [ ]Estilizar botões
+- [x]Estilizar botões
 - [ ]Criar Página Individual para cada pokemons
 - [ ]Exibir evoluções do pokemon na pagina individual
 - [ ]Exibir layout em que o usuario possa seguir ou voltar nos pokemons por ordem

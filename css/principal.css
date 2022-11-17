@@ -101,6 +101,30 @@ text-transform: uppercase;
     font-size: 18px;
     padding: 1.8% 2%;
 }
+.load-pagina{
+text-align: center;
+}
+
+.mais-pokemons{
+    background-color:white;
+    background-size: contain;
+    color: black;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 8%;
+    box-shadow: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: 800;
+    opacity: .9;
+}
+.mais-pokemons:hover{
+    cursor: pointer;
+    scale: 1.1;
+    opacity: 1;
+    color: white;
+    background-image: url(../images/bg_1.png);
+}
 
 /* Responsivo */
 
@@ -221,5 +245,8 @@ text-transform: uppercase;
 .ghost{
     background-color: #7b62a3;
 }
-
+.dark{
+    background-color: #707070;
+    color: white;
+}
 
