@@ -26,9 +26,13 @@
     border: 8px solid white;
     box-sizing: border-box;
     display: inline-block;
-
 }
-.imagem-pokemon{
+.container-pokemon:hover{
+    position: relative;
+    top: -5px;
+    cursor: pointer;    
+}
+.imagem-pokemon, .status{
     background-color: #F2F2F2;
     height: 205px;
     width: 100%;
@@ -56,8 +60,6 @@ text-transform: uppercase;
 .container-tipo{
  display: flex;
  flex-direction: row;
-    
-   
 }
 .tipo1, .tipo2{
     display: inline-block;
@@ -73,9 +75,6 @@ text-transform: uppercase;
 }
 .tipo1{margin:5px 0px 5px 5%;}
 .tipo2{margin:5px 5px 5px 2px;}
-.container-pokemon:hover{
-    position: relative;
-    top: -2px;}
 .imagem-pokemon{cursor: pointer;}
 
 
@@ -163,4 +162,83 @@ text-transform: uppercase;
 .ghost{
     background-color: #7b62a3;
 }
+.status{
+    display: none;
+}
+.container-pokemon:active .imagem-pokemon{
+    display: none; 
+}
+.statushover:active .status{
+    display: inline-block;
+    border: 1px solid #cccccc;
+    
+}
 
+
+.hovergrass{
+    background-color: red;
+}
+
+
+
+/* background no active */
+
+.activesteel {
+	background-color: #f4f4f4;
+}
+
+.activefire {
+	background-color: #FDDFDF;
+}
+
+.activegrass {
+	background-color: #DEFDE0;
+}
+
+.activeelectric {
+	background-color: #FCF7DE;
+}
+
+.activewater, .activeice {
+	background-color: #DEF3FD;
+}
+
+.activeground {
+	background-color: #f4e7da;
+}
+
+.activerock {
+	background-color: #d5d5d4;
+}
+
+.activefairy {
+	background-color: #fceaff;
+}
+
+.activepoison {
+	background-color: #98d7a5;
+}
+
+.activebug {
+	background-color: #f8d5a3;
+}
+
+.activedragon {
+	background-color: #97b3e6;
+}
+
+.activepsychic {
+	background-color: #eaeda1;
+}
+
+.activeflying {
+	background-color: #F5F5F5;
+}
+
+.activefighting {
+	background-color: #E6E0D4;
+}
+
+.activenormal {
+	background-color: #F5F5F5;
+}

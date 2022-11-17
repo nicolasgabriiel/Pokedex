@@ -27,18 +27,16 @@
 >Parte 2
 
 - [X]Estruturar layout das páginas individuais 
-- [ ]Exibir imagem do pokemon na pagina individual
-- [ ]Exibir informações do pokemon na pagina individual
-- [ ]Exibir tipo do pokemon na pagina individual
-- [ ]Exibir status do pokemon na pagina individual
-- [ ]Estilizar todo layout das páginas individuais 
+- [x]Receber a informação de qual pokemon foi clicado
+- [x]Exibir status do pokemon na pagina individual
+- [ ]Estilizar todo layout das janelas individuais
 - [ ]Adicionar o Favicon 
 - [ ]Aplicando Design Responsivo
 
 
 
 ### Extras Projeto
-- [ ]Resolver problema com os numeros exibidos 
+- [x]Resolver problema com os numeros exibidos 
 - [ ]Exibir evoluções do pokemon na pagina individual
 - [ ]Exibir layout em que o usuario possa seguir ou voltar nos pokemons por ordem
 - [ ]Criar Busca por nome para os Pokemons
