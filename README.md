@@ -39,8 +39,8 @@
 
 ### Extras Projeto
 - [x]Resolver problema com os numeros exibidos 
-- [ ]Criar Lógica botão ver mais 
-- [ ]Criar Lógica botão ver tudo
+- [x]Criar Lógica botão ver mais 
+- [x]Criar Lógica botão ver tudo
 - [ ]Estilizar botões
 - [ ]Criar Página Individual para cada pokemons
 - [ ]Exibir evoluções do pokemon na pagina individual

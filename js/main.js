@@ -16,6 +16,10 @@ morePokemons.onclick = function verMais(){
     fetchPokemon()
   }else{fetchPokemon()}
 }
+allPokemons.onclick = function verTudo(){
+  numeroPokemons = 906
+  fetchPokemon()
+}
 
 
 
