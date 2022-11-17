@@ -94,6 +94,7 @@ text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
     padding: 5%;
+    font-style: italic;
 }
 .status-individual{
     font-weight: bold;
