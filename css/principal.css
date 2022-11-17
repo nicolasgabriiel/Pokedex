@@ -76,7 +76,7 @@ text-transform: uppercase;
 .tipo1{margin:5px 0px 5px 5%;}
 .tipo2{margin:5px 5px 5px 2px;}
 .imagem-pokemon{cursor: pointer;}
-
+/* Status Individuais */
 .status{
     display: none;
 }

@@ -1,10 +1,33 @@
 getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
-const fetchPokemon  = () => {
+let numeroPokemons = 21
 
+let morePokemons = document.getElementById('loadMorePoke')
+let allPokemons = document.getElementById('loadAll')
+ 
+console.log(allPokemons);
+
+morePokemons.onclick = function verMais(){
+  numeroPokemons += 20;
+  console.log(numeroPokemons)
+  if(numeroPokemons > 906){
+    numeroPokemons = 906
+    console.log(numeroPokemons)
+    fetchPokemon()
+  }else{fetchPokemon()}
+}
+
+
+
+
+
+
+
+const fetchPokemon  = () => {
+  
   const pokemonPromises = []
 
-  for (let i = 1; i < 906; i++ ){
+  for (let i = 1; i < numeroPokemons; i++ ){
 
     pokemonPromises.push(fetch(getPokemonUrl(i)).then(response => response.json()))
 }
@@ -18,7 +41,7 @@ Promise.all(pokemonPromises)
       const typesSeparadas = types.join(' ');
       const type = typesSeparadas.split(' ')
      
-      console.log(pokemon.sprites.other['official-artwork']['front_default'])
+      
       
       accumulator += `
       <li class="container-pokemon">
@@ -65,12 +88,6 @@ Promise.all(pokemonPromises)
 
 fetchPokemon()
 
-
-let click = document.querySelectorAll('.resposta')
-
-click.onclick = function a () {
-  console.log(click[0])
-}
 
 
 

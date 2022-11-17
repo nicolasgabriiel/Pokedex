@@ -30,8 +30,8 @@
 - [x]Receber a informação de qual pokemon foi clicado
 - [x]Exibir status do pokemon na pagina individual
 - [x]Estilizar todo layout das janelas individuais
-- [ ]Adicionar o Favicon 
-- [ ]Aplicando Design Responsivo
+- [x]Adicionar o Favicon 
+- [x]Aplicando Design Responsivo
 - [ ]Refatorar JS
 = [ ]Refatorar CSS 
 
@@ -39,6 +39,10 @@
 
 ### Extras Projeto
 - [x]Resolver problema com os numeros exibidos 
+- [ ]Criar Lógica botão ver mais 
+- [ ]Criar Lógica botão ver tudo
+- [ ]Estilizar botões
+- [ ]Criar Página Individual para cada pokemons
 - [ ]Exibir evoluções do pokemon na pagina individual
 - [ ]Exibir layout em que o usuario possa seguir ou voltar nos pokemons por ordem
 - [ ]Criar Busca por nome para os Pokemons
