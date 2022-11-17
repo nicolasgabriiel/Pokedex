@@ -29,9 +29,11 @@
 - [X]Estruturar layout das páginas individuais 
 - [x]Receber a informação de qual pokemon foi clicado
 - [x]Exibir status do pokemon na pagina individual
-- [ ]Estilizar todo layout das janelas individuais
+- [x]Estilizar todo layout das janelas individuais
 - [ ]Adicionar o Favicon 
 - [ ]Aplicando Design Responsivo
+- [ ]Refatorar JS
+= [ ]Refatorar CSS 
 
 
 

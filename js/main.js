@@ -18,20 +18,20 @@ Promise.all(pokemonPromises)
       const typesSeparadas = types.join(' ');
       const type = typesSeparadas.split(' ')
      
-      console.log(pokemon.stats[0].base_stat)
+      console.log(pokemon.sprites.other['official-artwork']['front_default'])
       
       accumulator += `
       <li class="container-pokemon">
       <div class="statushover">
           <div class="status ${type[0]}">
-          <p>BASE STATS</p>
+          <p class="base-titulo">BASE STATS</p>
           <div>
-          <p> HP: ${pokemon.stats[0].base_stat}</p>
-          <p> Attack: ${pokemon.stats[1].base_stat}</p>
-          <p> Defense: ${pokemon.stats[2].base_stat}</p>
-          <p> Special Attack: ${pokemon.stats[3].base_stat}</p>
-          <p> Special Defense: ${pokemon.stats[4].base_stat}</p>
-          <p> Speed: ${pokemon.stats[5].base_stat}</p>
+          <p class="status-individual"> HP: ${pokemon.stats[0].base_stat}</p>
+          <p class="status-individual"> Attack: ${pokemon.stats[1].base_stat}</p>
+          <p class="status-individual"> Defense: ${pokemon.stats[2].base_stat}</p>
+          <p class="status-individual"> Special Attack: ${pokemon.stats[3].base_stat}</p>
+          <p class="status-individual"> Special Defense: ${pokemon.stats[4].base_stat}</p>
+          <p class="status-individual"> Speed: ${pokemon.stats[5].base_stat}</p>
           </div>
       </div>
           <a  class="resposta ${pokemon.name}" ><img class="imagem-pokemon" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/></a>
