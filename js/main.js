@@ -25,12 +25,6 @@ allPokemons.onclick = function verTudo(){
   morePokemons.style.display = "none";
 }
 
-
-
-
-
-
-
 const fetchPokemon  = () => {
   
   const pokemonPromises = []
@@ -50,8 +44,6 @@ Promise.all(pokemonPromises)
       const type = typesSeparadas.split(' ')
       const namePokemons = pokemon.name
     
-   
-      
       accumulator += `
       <li class="container-pokemon">
       <div class="statushover">
@@ -81,10 +73,7 @@ Promise.all(pokemonPromises)
               <div class="baixo"></div>
               <div class="cima" style="width: calc(${pokemon.stats[5].base_stat}%/2);"></div>
           </div>
-
           </div><!--direita-->
-          
-        
           </div>
       </div>
           <a  class="resposta ${pokemon.name}" ><img class="imagem-pokemon" alt"${pokemon.name} src="${pokemon['sprites']['other']['official-artwork']['front_default']}"/></a>
@@ -93,21 +82,13 @@ Promise.all(pokemonPromises)
           <div class="container-tipo">
             <div class="tipo1 ${type[0]}">${type[0]}</div>
             <div class="tipo2 ${type[1]}">${type[1]}</div>
-
-            
           </div> 
       <div>    
       </li>
       
       `
-     
-     
-
-
-
       return accumulator
     }, '')
-
 
     const ul = document.querySelector('[data-js="pokedex"]')
 
@@ -117,20 +98,3 @@ Promise.all(pokemonPromises)
 }
 
 fetchPokemon()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// href="../pagina-individual.html"

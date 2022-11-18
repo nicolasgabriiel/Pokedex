@@ -34,7 +34,7 @@
 - [x]Aplicando Design Responsivo
 - [X]Melhorarando a Identação do HTML
 - [x]Melhorarando a Identação do CSS
-- [ ]Refatorarando JS
+- [x]Refatorarando JS
 
 
 
