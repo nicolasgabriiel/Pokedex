@@ -32,8 +32,9 @@
 - [x]Estilizar todo layout das janelas individuais
 - [x]Adicionar o Favicon 
 - [x]Aplicando Design Responsivo
-- [ ]Refatorar JS
-= [ ]Refatorar CSS 
+- [X]Melhorarando a Identação do HTML
+- [ ]Melhorarando a Identação do CSS
+- [ ]Refatorarando JS
 
 
 

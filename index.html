@@ -4,38 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Favicon.png" type="image/x-icon" />
     <title>Pokédex</title>
+    <!--            Estilos CSS              -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/principal.css">
-    <link rel="shortcut icon" href="images/Favicon.png" type="image/x-icon" />
+    <!--          Descrição do Site              -->
+    <meta name="description" content="Pokédex com todos os 95 Pokemons">
+    <meta name="keywords" content="Pokemon, Pokedex, HTML, CSS, JavaScript">
+    <meta name="author" content="Nícolas Gabriel">
 </head>
 <body>
-    <main>
         <div class="background-fora">
             <div class="background-dentro">
+                
+                <header><!--        Cabeçalho           -->
+                    <div class="titulo"><h1>Pokedéx</h1></div>
+                    <div class="busca_um"></div>
+                    <div class="busca_dois"> </div>
+                </header><!--        Cabeçalho           -->
+                
+                <main><!--      Corpo Principal     -->
+                    <div class="caixa-principal">
+                        <!--Lista onde são inseridos todos os Pokemons-->
+                        <ul data-js="pokedex" class="pokedex"></ul>
 
-                <div class="titulo"><h1>Pokedéx</h1></div>
-                <div class="busca_um"></div><!--busca-->
-                <div class="busca_dois"> </div><!--busca-->
-            
-            
-                <div class="caixa-principal">
-                    
-                    <ul data-js="pokedex" class="pokedex"></ul>
-
-                    <!--Botões da Página-->
-                    <div class="load-pagina">
-                        <button id="loadAll" type="button" class="mais-pokemons">Ver Todos os Pokemons</button>
-                        <button id="loadMorePoke" type="button" class="mais-pokemons">Ver Mais Pokemons</button>
-                    </div><!--pagina--> 
-                    
-                </div><!--caixa-principal-->
+                        <!--Botões da Página-->
+                        <div class="load-pagina">
+                            <button id="loadAll" type="button" class="mais-pokemons">Ver Todos os Pokemons</button>
+                            <button id="loadMorePoke" type="button" class="mais-pokemons">Ver Mais Pokemons</button>
+                        </div><!-- load pagina--> 
+                        
+                    </div><!--caixa-principal-->
+                </main><!--      Corpo Principal     -->
+           
             </div><!--background-dentro-->
         </div><!--background-fora-->
-        <!--           Script         -->  
+        
+         <!--          Script           -->  
          <script src="js/main.js"></script>
-    </main>
-    
 </body>
 </html>
