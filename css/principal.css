@@ -51,8 +51,9 @@
     color:black;
     width: 90%;
     margin: 10px auto;
-    font-size: 23px;
+    font-size: 20px;
     text-align: left;
+    font-weight: 500;
 }
 .nome-pokemon::first-letter{
 text-transform: uppercase;
@@ -70,7 +71,7 @@ text-transform: uppercase;
     display: inline-block;
     text-align: center;
     line-height: 19px;
-    font-size: 15px;
+    font-size: 14px;
     
 }
 .tipo1{margin:5px 0px 5px 5%;}
@@ -96,11 +97,7 @@ text-transform: uppercase;
     padding: 5%;
     font-style: italic;
 }
-.status-individual{
-    font-weight: bold;
-    font-size: 18px;
-    padding: 1.8% 2%;
-}
+
 .load-pagina{
 text-align: center;
 }
@@ -145,9 +142,50 @@ text-align: center;
 }
 
 
+/* individual */
 
+.caixa-status{
+    width: 100%;
+    height: 164px;
+    display: flex;
+    flex-direction: row;
+}
 
-
+.status-individual{
+  
+    font-weight: bold;
+    font-size: 13px;
+    padding: 7px 1%;
+    text-align: center;
+}
+.esquerda{
+    width: 50%;
+   
+}
+.direita{
+    padding: 2%;
+    width: 50%;
+   
+}
+.baixo:first-child{
+    width: 100%;
+    height: 7px;
+    background-color: white;
+    margin-top: 6px;
+}
+.baixo{
+    width: 100%;
+    height: 7px;
+    background-color: white;
+    margin-top: 14px;
+}
+.cima{
+    height: 4px;
+    background-color: lightskyblue;
+    position: relative;
+    top: -6px;
+    border: 1px ridge #78c4fd;
+}
 
 
 
