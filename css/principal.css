@@ -1,3 +1,4 @@
+/*      header       */
 .busca_um{
     width:70vw;
     height: 80px;
@@ -11,6 +12,8 @@
     margin:0 auto;
     border-radius: 0 0 18px 18px;
 }
+/*      header       */
+/*      main       */
 .caixa-principal{
     width: 50vw;
     background-color: white;
@@ -30,7 +33,7 @@
 .container-pokemon:hover{
     position: relative;
     top: -5px;
-    cursor: pointer;    
+    cursor: pointer;  
 }
 .imagem-pokemon, .status{
     background-color: #F2F2F2;
@@ -72,31 +75,12 @@ text-transform: uppercase;
     text-align: center;
     line-height: 19px;
     font-size: 14px;
-    
 }
 .tipo1{margin:5px 0px 5px 5%;}
 .tipo2{margin:5px 5px 5px 2px;}
 .imagem-pokemon{cursor: pointer;}
-/* Status Individuais */
-.status{
-    display: none;
-}
-.container-pokemon:active .imagem-pokemon{
-    display: none; 
-}
-.statushover:active .status{
-    display: inline-block;
-    border: 1px solid #cccccc;
-    background-size: contain;
-    
-    
-}
-.base-titulo{
-    font-weight: bold;
-    font-size: 20px;
-    padding: 5%;
-    font-style: italic;
-}
+
+/* Botões de ver mais */
 
 .load-pagina{
 text-align: center;
@@ -123,26 +107,25 @@ text-align: center;
     background-image: url(../images/bg_1.png);
 }
 
-/* Responsivo */
+/* Status individuais */
 
-
-@media screen and (max-width: 1500px) {
- .container-pokemon{ width: calc(48vw /3); }  
+.status{
+    display: none;
 }
-
-@media screen and (max-width: 1080px) {
- .container-pokemon{ width: calc(48vw /2); } 
+.container-pokemon:active .imagem-pokemon{
+    display: none; 
 }
-@media screen and (max-width: 750px) {
-    .container-pokemon{width: calc(30vw ); }  
+.statushover:active .status{
+    display: inline-block;
+    border: 1px solid #cccccc;
+    background-size: contain;
 }
-@media screen and (max-width: 750px) {
-    .container-pokemon{
-        width: calc(45vw );}
+.base-titulo{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5%;
+    font-style: italic;
 }
-
-
-/* individual */
 
 .caixa-status{
     width: 100%;
@@ -152,7 +135,6 @@ text-align: center;
 }
 
 .status-individual{
-  
     font-weight: bold;
     font-size: 13px;
     padding: 7px 1%;
@@ -160,12 +142,10 @@ text-align: center;
 }
 .esquerda{
     width: 50%;
-   
 }
 .direita{
     padding: 2%;
     width: 50%;
-   
 }
 .baixo:first-child{
     width: 100%;
@@ -187,44 +167,38 @@ text-align: center;
     border: 1px ridge #78c4fd;
 }
 
+/* Responsivo */
 
+@media screen and (max-width: 1500px) {
+    .container-pokemon{ width: calc(48vw /3); }  
+   }
+   
+   @media screen and (max-width: 1080px) {
+    .container-pokemon{ width: calc(48vw /2); } 
+   }
+   @media screen and (max-width: 750px) {
+       .container-pokemon{width: calc(30vw ); }  
+   }
+   @media screen and (max-width: 750px) {
+       .container-pokemon{
+           width: calc(45vw );}
+   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Cores dos cards */
+/* Cores de acordo com os types */
 
 .steel {
 	background-color: #9eb7b8;
 }
-
 .fire {
     color: white;
 	background-color: #fd7d24;
 }
-
 .grass {
 	background-color: #9BCC50;
 }
-
 .electric {
 	background-color: #EED535;
 }
-
 .water{
 	background-color: #4592c4;
     color:white
@@ -232,48 +206,38 @@ text-align: center;
 .ice {
 	background-color: #51c4e7;
 }
-
 .ground {
 	background-image:linear-gradient(to bottom, #f7de3f , #ab9842 );
 }
-
 .rock {
 	background-color: #a38c21;
     color: white;
 }
-
 .fairy {
 	background-color: #fdb9e9;
 }
-
 .poison {
     color: white;
 	background-color: #b97fc9;
 }
-
 .bug {
 	background-color: #729f3f;
     color:white;
 }
-
 .dragon {
 	background-image: linear-gradient(to bottom, #53a4cf , #f16e57 );
 }
-
 .psychic {
 	background-color: #f366b9;
     color: white;
 }
-
 .flying {
 	background-image: linear-gradient(to bottom, #5EB2E3, #bdb9b8);
 }
-
 .fighting {
 	background-color: #d56723;
     color: white;
 }
-
 .normal {
 	background-color: #A4ACAF;
 }

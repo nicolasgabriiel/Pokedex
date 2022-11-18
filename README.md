@@ -33,7 +33,7 @@
 - [x]Adicionar o Favicon 
 - [x]Aplicando Design Responsivo
 - [X]Melhorarando a Identação do HTML
-- [ ]Melhorarando a Identação do CSS
+- [x]Melhorarando a Identação do CSS
 - [ ]Refatorarando JS
 
 

@@ -2,6 +2,7 @@
     font-family: "Flexo-Regular";
     src: url(../fonts/Flexo/Flexo-Regular/Flexo-Regular.ttf) format('opentype');
 }
+/*       Background da página       */
 body{
     font-family: "Flexo-Regular";
 }
@@ -15,6 +16,7 @@ body{
     background-image: url(../images/bg_2.png);
     margin: 0 auto;
 }
+/*           Header           */
 .titulo{
     width: 40vw;
     background-color: white;
