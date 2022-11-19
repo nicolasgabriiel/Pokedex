@@ -2,7 +2,7 @@
 
 ### Sobre
 
- O Objetivo desse projeto é desenvolver uma página web usando como inspiração a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/) Nesse projeto utilizei uma [API](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html?pg=wianapi&cta=websocketapi) externa chamada [PokeAPI](https://pokeapi.co), que me permitiu buscar em uma fonte externa os dados que eu precisava sobre os Pokémons.
+ O Objetivo desse projeto foi desenvolver uma página web usando como inspiração a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/) Nesse projeto utilizei uma [API](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html?pg=wianapi&cta=websocketapi) externa chamada [PokeAPI](https://pokeapi.co), que me permitiu buscar em uma fonte externa todos os dados que eu precisava sobre os Pokémons.
 
  >Acesse a página do projeto clicando [aqui.](https://main.dtl4uvmpcuppz.amplifyapp.com)
 
@@ -18,27 +18,29 @@
 - [X]Estilizar layout do fundo Reutilizavel
 - [X]Estruturar layout da Página principal
 - [X]Estilizar layout da Página principal
-- [X]Criar Efeito Hover nos pokemons
+- [X]Criar Efeito Hover nos container pokemons
 - [X]Começar a Estruturar os dados que vem da Poke API
-- [X]Exibir textos na tela
-- [X]Exibir as imagens na tela
-- [X]Exibir todos os pokemons na tela inicial listas
+- [X]Exibir textos na tela via JS
+- [X]Exibir as imagens na tela via JS
+- [X]Exibir todos os pokemons na tela iniciaL via JS
 
 >Parte 2
 
 - [X]Estruturar layout das páginas individuais 
-- [x]Receber a informação de qual pokemon foi clicado
-- [x]Exibir status do pokemon na pagina individual
-- [x]Estilizar todo layout das janelas individuais
-- [x]Adicionar o Favicon 
-- [x]Aplicando Design Responsivo
-- [X]Melhorarando a Identação do HTML
-- [x]Melhorarando a Identação do CSS
-- [x]Refatorarando JS
+- [X]Receber a informação de qual pokemon foi clicado
+- [X]Exibir status do pokemon na janela individual
+- [X]Estilizar todo layout das janelas individuais
+- [X]Adicionar o Favicon 
+- [X]Aplicar Design Responsivo
+- [X]Melhorar a Identação do HTML
+- [X]Melhorar a Identação do CSS
+- [X]Refatorar o JS
+- [X]Melhorar Responsivo
+- [X]Atualizar Readme
 
 
 
-### Extras Projeto
+### Extras desse Projeto
 - [x]Resolver problema com os numeros exibidos 
 - [x]Criar Lógica botão ver mais 
 - [x]Criar Lógica botão ver tudo
