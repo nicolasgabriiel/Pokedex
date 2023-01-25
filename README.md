@@ -4,7 +4,7 @@
 
  O Objetivo desse projeto foi desenvolver uma página web usando como inspiração a página oficial do [Pokémon.](https://www.pokemon.com/br/pokedex/) Nesse projeto utilizei uma [API](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html?pg=wianapi&cta=websocketapi) externa chamada [PokeAPI](https://pokeapi.co), que me permitiu buscar em uma fonte externa todos os dados que eu precisava sobre os Pokémons.
 
- >Acesse a página do projeto clicando [aqui.](https://main.dtl4uvmpcuppz.amplifyapp.com)
+ >Acesse a página de deploy do projeto clicando [aqui.](https://main.dtl4uvmpcuppz.amplifyapp.com)
 
  ### Tecnologias utilizadas
 
