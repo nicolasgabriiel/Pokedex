@@ -8,16 +8,19 @@ let allPokemons = document.getElementById('loadAll')
 console.log(allPokemons);
 
 morePokemons.onclick = function verMais(){
+  
   numeroPokemons += 20;
-  console.log(numeroPokemons)
+  
   if(numeroPokemons > 906){
+    
     numeroPokemons = 906
-    console.log(numeroPokemons)
     morePokemons.style.display = "none";
     allPokemons.style.display = "none";
     fetchPokemon()
+
   }else{fetchPokemon()}
 }
+
 allPokemons.onclick = function verTudo(){
   numeroPokemons = 906
   fetchPokemon()

@@ -113,10 +113,10 @@ text-align: center;
 .status{
     display: none;
 }
-.container-pokemon:active .imagem-pokemon{
+.container-pokemon:hover .imagem-pokemon{
     display: none; 
 }
-.statushover:active .status{
+.statushover:hover .status{
     display: inline-block;
     border: 1px solid #cccccc;
     background-size: contain;
